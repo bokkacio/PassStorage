@@ -24,21 +24,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e49ccfcd-a9aa-494b-b6de-14c76d9ad4f6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/uimodifier/DecryptViewBinder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/activity/Entrance.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/file/IPermamentStorage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/encryption/IScrambler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/db/ISecureCryptStorage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/encryption/Md5Helper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/file/PermamentStorage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/encryption/Scrambler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/add.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/delete.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/enrtance.xml" />
-      <change type="DELETED" beforePath="D:\Git\PassStorage\src\ru\android\uiapp\passwordstorage\MyActivity.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/encrypt/IScrambler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/encrypt/Md5Helper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/encrypt/Scrambler.java" />
+      <change type="DELETED" beforePath="D:\Git\PassStorage\src\ru\android\uiapp\passwordstorage\Encryption\IScrambler.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Git\PassStorage\src\ru\android\uiapp\passwordstorage\Encryption\Md5Helper.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Git\PassStorage\src\ru\android\uiapp\passwordstorage\Encryption\Scrambler.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/uimodifier/DecryptViewBinder.java" afterPath="$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/uimodifier/DecryptViewBinder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/file/PermamentStorage.java" afterPath="$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/file/PermamentStorage.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/db/SecureCryptStorage.java" afterPath="$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/db/SecureCryptStorage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PassStorage.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -121,7 +115,7 @@
       <file leaf-file-name="Entrance.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/activity/Entrance.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="56" selection-start="723" selection-end="723" vertical-scroll-proportion="0.3096539">
+            <state line="21" column="56" selection-start="636" selection-end="636" vertical-scroll-proportion="0.6502732">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -132,7 +126,7 @@
       <file leaf-file-name="enrtance.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/layout/enrtance.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="78" selection-start="1058" selection-end="1058" vertical-scroll-proportion="-18.36">
+            <state line="27" column="15" selection-start="1058" selection-end="1058" vertical-scroll-proportion="-18.36">
               <folding />
             </state>
           </provider>
@@ -449,7 +443,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1014" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1014" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.67094517" order="-1" side_tool="false" content_ui="tabs" />
@@ -470,7 +464,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.67094517" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18516542" sideWeight="0.67094517" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18516542" sideWeight="0.67094517" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -543,14 +537,14 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/encryption/IScrambler.java">
+    <entry file="file://$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/encrypt/IScrambler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="109" selection-start="230" selection-end="230" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/encryption/Scrambler.java">
+    <entry file="file://$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/encrypt/Scrambler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="34" column="30" selection-start="1157" selection-end="1157" vertical-scroll-proportion="0.0">
           <folding>
@@ -652,7 +646,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/enrtance.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="78" selection-start="1058" selection-end="1058" vertical-scroll-proportion="-18.36">
+        <state line="27" column="15" selection-start="1058" selection-end="1058" vertical-scroll-proportion="-18.36">
           <folding />
         </state>
       </provider>
@@ -660,7 +654,7 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/encryption/Md5Helper.java">
+    <entry file="file://$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/encrypt/Md5Helper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="13" selection-start="210" selection-end="210" vertical-scroll-proportion="-0.061930783">
           <folding>
@@ -671,7 +665,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/activity/Entrance.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="56" selection-start="723" selection-end="723" vertical-scroll-proportion="0.3096539">
+        <state line="21" column="56" selection-start="636" selection-end="636" vertical-scroll-proportion="0.6502732">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

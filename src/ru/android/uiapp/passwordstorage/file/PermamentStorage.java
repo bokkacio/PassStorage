@@ -5,7 +5,7 @@ import android.os.Environment;
 import android.text.format.Time;
 import ru.android.uiapp.passwordstorage.db.ISecureCryptStorage;
 import ru.android.uiapp.passwordstorage.db.SecureCryptStorage;
-import ru.android.uiapp.passwordstorage.encryption.IScrambler;
+import ru.android.uiapp.passwordstorage.encrypt.IScrambler;
 
 import java.io.*;
 
