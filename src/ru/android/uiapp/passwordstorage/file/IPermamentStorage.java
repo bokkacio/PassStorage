@@ -7,6 +7,5 @@ package ru.android.uiapp.passwordstorage.file;
  */
 public interface IPermamentStorage {
     String savePasswordsToFile();
-
     String importPasswordsFromFile();
 }

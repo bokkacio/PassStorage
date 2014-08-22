@@ -1,4 +1,4 @@
-package ru.android.uiapp.passwordstorage.Encryption;
+package ru.android.uiapp.passwordstorage.encryption;
 
 /**
  * User: maslyanko
@@ -7,6 +7,5 @@ package ru.android.uiapp.passwordstorage.Encryption;
  */
 public interface IScrambler {
     String encrypt(String secretPhrase);
-
     String decrypt(String encryptedPhrase);
 }
