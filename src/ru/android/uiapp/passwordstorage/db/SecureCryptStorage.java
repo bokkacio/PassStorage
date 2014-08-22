@@ -4,7 +4,7 @@ import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
-import ru.android.uiapp.passwordstorage.encrypt.IScrambler;
+import ru.android.uiapp.passwordstorage.encryption.IScrambler;
 
 /**
  * User: maslyanko

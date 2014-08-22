@@ -1,4 +1,4 @@
-package ru.android.uiapp.passwordstorage.encrypt;
+package ru.android.uiapp.passwordstorage.encryption;
 
 import android.util.Base64;
 import javax.crypto.Cipher;

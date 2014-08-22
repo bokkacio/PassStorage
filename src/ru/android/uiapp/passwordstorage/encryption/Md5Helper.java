@@ -1,4 +1,4 @@
-package ru.android.uiapp.passwordstorage.encrypt;
+package ru.android.uiapp.passwordstorage.encryption;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;

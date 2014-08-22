@@ -24,19 +24,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e49ccfcd-a9aa-494b-b6de-14c76d9ad4f6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/encrypt/IScrambler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/encrypt/Md5Helper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/encrypt/Scrambler.java" />
-      <change type="DELETED" beforePath="D:\Git\PassStorage\src\ru\android\uiapp\passwordstorage\Encryption\IScrambler.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Git\PassStorage\src\ru\android\uiapp\passwordstorage\Encryption\Md5Helper.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Git\PassStorage\src\ru\android\uiapp\passwordstorage\Encryption\Scrambler.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/uimodifier/DecryptViewBinder.java" afterPath="$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/uimodifier/DecryptViewBinder.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/file/PermamentStorage.java" afterPath="$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/file/PermamentStorage.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/db/SecureCryptStorage.java" afterPath="$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/db/SecureCryptStorage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="D:\Git\PassStorage\src\ru\android\uiapp\passwordstorage\encrypt\IScrambler.java" afterPath="$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/encryption/IScrambler.java" />
+      <change type="MOVED" beforePath="D:\Git\PassStorage\src\ru\android\uiapp\passwordstorage\encrypt\Md5Helper.java" afterPath="$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/encryption/Md5Helper.java" />
+      <change type="MOVED" beforePath="D:\Git\PassStorage\src\ru\android\uiapp\passwordstorage\encrypt\Scrambler.java" afterPath="$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/encryption/Scrambler.java" />
     </list>
     <ignored path="PassStorage.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="e49ccfcd-a9aa-494b-b6de-14c76d9ad4f6" time="1408704740839" ignored="false" />
+    <file path="/Dummy.txt" changelist="e49ccfcd-a9aa-494b-b6de-14c76d9ad4f6" time="1408707538811" ignored="false" />
     <file path="$PROJECT_DIR$/res/values/strings.xml" changelist="e49ccfcd-a9aa-494b-b6de-14c76d9ad4f6" time="1408451709495" ignored="false" />
     <file path="/ContextSqlLiteHelper.java" changelist="e49ccfcd-a9aa-494b-b6de-14c76d9ad4f6" time="1408521316718" ignored="false" />
     <file path="/MyActivity.java" changelist="e49ccfcd-a9aa-494b-b6de-14c76d9ad4f6" time="1408518382677" ignored="false" />
@@ -115,7 +113,7 @@
       <file leaf-file-name="Entrance.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/activity/Entrance.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="56" selection-start="636" selection-end="636" vertical-scroll-proportion="0.6502732">
+            <state line="20" column="104" selection-start="595" selection-end="595" vertical-scroll-proportion="0.16393442">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -537,14 +535,14 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/encrypt/IScrambler.java">
+    <entry file="file://$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/encryption/IScrambler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="109" selection-start="230" selection-end="230" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/encrypt/Scrambler.java">
+    <entry file="file://$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/encryption/Scrambler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="34" column="30" selection-start="1157" selection-end="1157" vertical-scroll-proportion="0.0">
           <folding>
@@ -654,7 +652,7 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/encrypt/Md5Helper.java">
+    <entry file="file://$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/encryption/Md5Helper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="13" selection-start="210" selection-end="210" vertical-scroll-proportion="-0.061930783">
           <folding>
@@ -665,7 +663,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/activity/Entrance.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="56" selection-start="636" selection-end="636" vertical-scroll-proportion="0.6502732">
+        <state line="20" column="104" selection-start="595" selection-end="595" vertical-scroll-proportion="0.16393442">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

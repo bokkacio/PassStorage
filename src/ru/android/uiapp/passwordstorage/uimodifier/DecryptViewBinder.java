@@ -3,8 +3,8 @@ package ru.android.uiapp.passwordstorage.uimodifier;
 import android.database.Cursor;
 import android.view.View;
 import android.widget.TextView;
-import ru.android.uiapp.passwordstorage.encrypt.IScrambler;
-import ru.android.uiapp.passwordstorage.encrypt.Scrambler;
+import ru.android.uiapp.passwordstorage.encryption.IScrambler;
+import ru.android.uiapp.passwordstorage.encryption.Scrambler;
 
 /**
  * User: maslyanko

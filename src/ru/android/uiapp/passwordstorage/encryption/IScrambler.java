@@ -1,4 +1,4 @@
-package ru.android.uiapp.passwordstorage.encrypt;
+package ru.android.uiapp.passwordstorage.encryption;
 
 /**
  * User: maslyanko
