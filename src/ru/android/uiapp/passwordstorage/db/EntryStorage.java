@@ -83,7 +83,8 @@ public class EntryStorage implements IEntryStorage {
     {
         ContentValues cv = new ContentValues();
         //you can try
-        cv.put(ATTEMPT_COLUMN_NAME, 10000);
+        int funnyAttemptsAmount = 1000;
+        cv.put(ATTEMPT_COLUMN_NAME, funnyAttemptsAmount);
         cv.put(MD5_COLUMN_NAME, funnyNewPassword);
         _db.update(ENTRANCE_TABLE_TITLE, cv, null, null);
     }

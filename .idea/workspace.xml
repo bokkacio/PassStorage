@@ -24,32 +24,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e49ccfcd-a9aa-494b-b6de-14c76d9ad4f6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/uimodifier/DecryptViewBinder.java" afterPath="$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/uimodifier/DecryptViewBinder.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/file/PermamentStorage.java" afterPath="$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/file/PermamentStorage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/db/SecureCryptStorage.java" afterPath="$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/db/SecureCryptStorage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/uilogic/ActionResult.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/activity/ActivityVariable.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/activity/EventCodes.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/activity/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/uilogic/UserStringValidator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/values/menu.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/values/messages.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/activity/Entrance.java" afterPath="$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/activity/Entrance.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/db/EntryStorage.java" afterPath="$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/db/EntryStorage.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="D:\Git\PassStorage\src\ru\android\uiapp\passwordstorage\encrypt\IScrambler.java" afterPath="$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/encryption/IScrambler.java" />
-      <change type="MOVED" beforePath="D:\Git\PassStorage\src\ru\android\uiapp\passwordstorage\encrypt\Md5Helper.java" afterPath="$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/encryption/Md5Helper.java" />
-      <change type="MOVED" beforePath="D:\Git\PassStorage\src\ru\android\uiapp\passwordstorage\encrypt\Scrambler.java" afterPath="$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/encryption/Scrambler.java" />
     </list>
     <ignored path="PassStorage.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="e49ccfcd-a9aa-494b-b6de-14c76d9ad4f6" time="1408707538811" ignored="false" />
-    <file path="$PROJECT_DIR$/res/values/strings.xml" changelist="e49ccfcd-a9aa-494b-b6de-14c76d9ad4f6" time="1408451709495" ignored="false" />
+    <file path="/Dummy.txt" changelist="e49ccfcd-a9aa-494b-b6de-14c76d9ad4f6" time="1408965500320" ignored="false" />
     <file path="/ContextSqlLiteHelper.java" changelist="e49ccfcd-a9aa-494b-b6de-14c76d9ad4f6" time="1408521316718" ignored="false" />
     <file path="/MyActivity.java" changelist="e49ccfcd-a9aa-494b-b6de-14c76d9ad4f6" time="1408518382677" ignored="false" />
     <file path="/EmptyCollectionException.java" changelist="e49ccfcd-a9aa-494b-b6de-14c76d9ad4f6" time="1408519843823" ignored="false" />
     <file path="/IDatabaseHelper.java" changelist="e49ccfcd-a9aa-494b-b6de-14c76d9ad4f6" time="1408523230998" ignored="false" />
-    <file path="/EntryStorage.java" changelist="e49ccfcd-a9aa-494b-b6de-14c76d9ad4f6" time="1408533060874" ignored="false" />
+    <file path="/EntryStorage.java" changelist="e49ccfcd-a9aa-494b-b6de-14c76d9ad4f6" time="1408965943786" ignored="false" />
     <file path="/fragment.java" changelist="e49ccfcd-a9aa-494b-b6de-14c76d9ad4f6" time="1408703092686" ignored="false" />
     <file path="/SecureCryptStorage.java" changelist="e49ccfcd-a9aa-494b-b6de-14c76d9ad4f6" time="1408702990246" ignored="false" />
     <file path="/Md5Helper.java" changelist="e49ccfcd-a9aa-494b-b6de-14c76d9ad4f6" time="1408685303795" ignored="false" />
     <file path="/Scrambler.java" changelist="e49ccfcd-a9aa-494b-b6de-14c76d9ad4f6" time="1408685577963" ignored="false" />
-    <file path="/a.dummy" changelist="e49ccfcd-a9aa-494b-b6de-14c76d9ad4f6" time="1408686740203" ignored="false" />
+    <file path="/a.dummy" changelist="e49ccfcd-a9aa-494b-b6de-14c76d9ad4f6" time="1408953719029" ignored="false" />
     <file path="/DecryptViewBinder.java" changelist="e49ccfcd-a9aa-494b-b6de-14c76d9ad4f6" time="1408687468666" ignored="false" />
     <file path="/PermamentStorage.java" changelist="e49ccfcd-a9aa-494b-b6de-14c76d9ad4f6" time="1408702921458" ignored="false" />
     <file path="/enrtance.xml" changelist="e49ccfcd-a9aa-494b-b6de-14c76d9ad4f6" time="1408704845396" ignored="false" />
-    <file path="/Entrance.java" changelist="e49ccfcd-a9aa-494b-b6de-14c76d9ad4f6" time="1408705229591" ignored="false" />
+    <file path="/Entrance.java" changelist="e49ccfcd-a9aa-494b-b6de-14c76d9ad4f6" time="1408968415288" ignored="false" />
+    <file path="/EventCodes.java" changelist="e49ccfcd-a9aa-494b-b6de-14c76d9ad4f6" time="1408965235360" ignored="false" />
+    <file path="/messages.xml" changelist="e49ccfcd-a9aa-494b-b6de-14c76d9ad4f6" time="1408966379350" ignored="false" />
+    <file path="/UserStringValidator.java" changelist="e49ccfcd-a9aa-494b-b6de-14c76d9ad4f6" time="1408963950301" ignored="false" />
+    <file path="/ActionResult.java" changelist="e49ccfcd-a9aa-494b-b6de-14c76d9ad4f6" time="1408967317922" ignored="false" />
+    <file path="/menu.xml" changelist="e49ccfcd-a9aa-494b-b6de-14c76d9ad4f6" time="1408965028060" ignored="false" />
+    <file path="/Main.java" changelist="e49ccfcd-a9aa-494b-b6de-14c76d9ad4f6" time="1408967668227" ignored="false" />
+    <file path="/ActivityVariable.java" changelist="e49ccfcd-a9aa-494b-b6de-14c76d9ad4f6" time="1408968225578" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +74,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -101,6 +110,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -109,31 +119,7 @@
     <favorites_list name="PassStorage" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Entrance.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/activity/Entrance.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="104" selection-start="595" selection-end="595" vertical-scroll-proportion="0.16393442">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="enrtance.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/enrtance.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="15" selection-start="1058" selection-end="1058" vertical-scroll-proportion="-18.36">
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -151,21 +137,21 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/db/IEntryStorage.java" />
-        <option value="$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/db/EntryStorage.java" />
-        <option value="$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/Encryption/Md5Helper.java" />
-        <option value="$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/Encryption/Scrambler.java" />
-        <option value="$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/Encryption/IScrambler.java" />
-        <option value="$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/uimodifier/DecryptViewBinder.java" />
-        <option value="$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/db/ISecureCryptStorage.java" />
-        <option value="$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/db/SecureCryptStorage.java" />
-        <option value="$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/file/PermamentStorage.java" />
         <option value="$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/file/IPermamentStorage.java" />
         <option value="$PROJECT_DIR$/res/layout/entrance.xml" />
         <option value="$PROJECT_DIR$/res/layout/remove.xml" />
         <option value="$PROJECT_DIR$/res/layout/add.xml" />
         <option value="$PROJECT_DIR$/res/layout/delete.xml" />
         <option value="$PROJECT_DIR$/res/layout/enrtance.xml" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/uilogic/UserStringValidator.java" />
+        <option value="$PROJECT_DIR$/res/values/menu.xml" />
+        <option value="$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/activity/EventCodes.java" />
+        <option value="$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/db/EntryStorage.java" />
+        <option value="$PROJECT_DIR$/res/values/messages.xml" />
+        <option value="$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/uilogic/ActionResult.java" />
+        <option value="$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/activity/Main.java" />
+        <option value="$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/activity/ActivityVariable.java" />
         <option value="$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/activity/Entrance.java" />
       </list>
     </option>
@@ -202,7 +188,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -250,12 +235,115 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="passwordstorage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uilogic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PassStorage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PassStorage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="passwordstorage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PassStorage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PassStorage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="passwordstorage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="activity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PassStorage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PassStorage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="values" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PassStorage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PassStorage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PassStorage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PassStorage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="res" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -266,16 +354,16 @@
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="options.lastSelected" value="fileTemplates" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SafeBox" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="AndroidLayoutSelectedEditor" value="text-editor" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
@@ -317,19 +405,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -355,6 +430,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -441,30 +529,30 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1014" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1014" extended-state="7" />
+    <editor active="false" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.67094517" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.67094517" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.67094517" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32905483" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905483" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905483" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.67094517" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18516542" sideWeight="0.67094517" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18516542" sideWeight="0.67094517" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.67094517" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.67094517" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32959402" sideWeight="0.67094517" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -535,116 +623,21 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/encryption/IScrambler.java">
+    <entry file="file://$PROJECT_DIR$/ant.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="109" selection-start="230" selection-end="230" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="84" selection-start="1341" selection-end="1341" vertical-scroll-proportion="-0.37063777">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/encryption/Scrambler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="30" selection-start="1157" selection-end="1157" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/db/IDatabaseHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="32" selection-start="123" selection-end="138" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/db/ContextSqlLiteHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="8" selection-start="725" selection-end="725" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/db/EntryStorage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="116" selection-start="2420" selection-end="2420" vertical-scroll-proportion="0.46448088">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/db/IEntryStorage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="51" selection-start="312" selection-end="312" vertical-scroll-proportion="0.3406193">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/uimodifier/DecryptViewBinder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="56" selection-start="857" selection-end="857" vertical-scroll-proportion="0.75227684">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/db/SecureCryptStorage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="45" selection-start="906" selection-end="906" vertical-scroll-proportion="0.8360656">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/db/ISecureCryptStorage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="36" selection-start="156" selection-end="175" vertical-scroll-proportion="0.27868852">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/file/IPermamentStorage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="179" selection-end="179" vertical-scroll-proportion="0.27868852">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/file/PermamentStorage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="45" selection-start="3711" selection-end="3711" vertical-scroll-proportion="0.6593807">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/add.xml">
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/delete.xml">
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/enrtance.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="15" selection-start="1058" selection-end="1058" vertical-scroll-proportion="-18.36">
+        <state line="6" column="56" selection-start="302" selection-end="302" vertical-scroll-proportion="0.12993631">
           <folding />
         </state>
       </provider>
@@ -652,21 +645,96 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="47" selection-start="668" selection-end="668" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/encryption/Md5Helper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="13" selection-start="210" selection-end="210" vertical-scroll-proportion="-0.061930783">
+        <state line="10" column="13" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/activity/Entrance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="159" column="26" selection-start="5368" selection-end="5368" vertical-scroll-proportion="1.8182912">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/activity/Entrance.java">
+    <entry file="file://$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/activity/ActivityVariable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="104" selection-start="595" selection-end="595" vertical-scroll-proportion="0.16393442">
+        <state line="8" column="71" selection-start="221" selection-end="221" vertical-scroll-proportion="0.16365825">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/activity/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="60" selection-start="173" selection-end="173" vertical-scroll-proportion="0.14320096">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/uilogic/UserStringValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="76" selection-start="827" selection-end="827" vertical-scroll-proportion="0.45006016">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/uilogic/ActionResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="26" selection-start="391" selection-end="391" vertical-scroll-proportion="0.34777376">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/db/EntryStorage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="81" column="55" selection-start="2608" selection-end="2608" vertical-scroll-proportion="0.42719615">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/android/uiapp/passwordstorage/activity/EventCodes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="44" selection-start="411" selection-end="427" vertical-scroll-proportion="0.26594466">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="4" selection-start="55" selection-end="99" vertical-scroll-proportion="0.04091456">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/messages.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="32" selection-start="650" selection-end="664" vertical-scroll-proportion="0.16365825">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/menu.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="23" selection-start="74" selection-end="74" vertical-scroll-proportion="0.04091456">
+          <folding />
         </state>
       </provider>
     </entry>
