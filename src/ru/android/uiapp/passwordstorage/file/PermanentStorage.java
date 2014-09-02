@@ -14,12 +14,12 @@ import java.io.*;
  * Date: 22.08.14
  * Time: 14:12
  */
-public class PermamentStorage implements IPermamentStorage {
+public class PermanentStorage implements IPermanentStorage {
     private final File _currentDirectory;
     private final ISecureCryptStorage _secureStorage;
     private final IScrambler _scrambler;
 
-    public PermamentStorage(File directory, ISecureCryptStorage secureStorage, IScrambler scrambler)
+    public PermanentStorage(File directory, ISecureCryptStorage secureStorage, IScrambler scrambler)
     {
         _currentDirectory = directory;
         _secureStorage = secureStorage;

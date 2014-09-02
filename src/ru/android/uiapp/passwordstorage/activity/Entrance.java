@@ -15,6 +15,7 @@ import ru.android.uiapp.passwordstorage.db.EntryStorage;
 import ru.android.uiapp.passwordstorage.db.IEntryStorage;
 import ru.android.uiapp.passwordstorage.encryption.Md5Helper;
 import ru.android.uiapp.passwordstorage.uilogic.ActionResult;
+import ru.android.uiapp.passwordstorage.uilogic.SourceManager;
 import ru.android.uiapp.passwordstorage.uilogic.UserStringValidator;
 
 /**
@@ -59,16 +60,12 @@ public class Entrance extends Activity implements View.OnClickListener{
     private void setEntranceAppearance(){
         if(!_db.isFirstTimeEntrance()){
             _txtPasswordRepeat.setVisibility(View.INVISIBLE);
-            _lblInfo.setText(getSourceString(R.string.enter_password));
+            _lblInfo.setText(SourceManager.getSourceString(_source, R.string.enter_password));
         }
         else{
             _txtPasswordRepeat.setVisibility(View.VISIBLE);
-            _lblInfo.setText(getSourceString(R.string.first_time_instruction));
+            _lblInfo.setText(SourceManager.getSourceString(_source, R.string.first_time_instruction));
         }
-    }
-
-    private String getSourceString(int sourceId){
-        return _source.getString(sourceId);
     }
 
     private void setPasswordFirstTime()
@@ -82,7 +79,7 @@ public class Entrance extends Activity implements View.OnClickListener{
     {
         _db.close();
         Intent intent = new Intent(this, Main.class);
-        intent.putExtra(ActivityVariable.USER_PASSWORD_TITLE, userPassword);
+        intent.putExtra(ActivityVariable.SAVED_USER_PASSWORD, userPassword);
         startActivityForResult(intent, EventCodes.IMPORT_PASSWORDS);
     }
 
@@ -115,8 +112,8 @@ public class Entrance extends Activity implements View.OnClickListener{
                 }
 
                 _db.updateAttemptsAmount(attemptsAmount);
-                _lblAttemptsLeft.setText(String.format(getSourceString(R.string.password_attempts_left), attemptsAmount));
-                _lblInfo.setText(R.string.wrong_password);
+                _lblAttemptsLeft.setText(String.format(SourceManager.getSourceString(_source, R.string.password_attempts_left), attemptsAmount));
+                _lblInfo.setText(SourceManager.getSourceString(_source, R.string.wrong_password));
                 _txtPassword.setText("");
             }
             else
@@ -134,14 +131,14 @@ public class Entrance extends Activity implements View.OnClickListener{
             else{
                 _txtPassword.setText("");
                 _txtPasswordRepeat.setText("");
-                _lblInfo.setText(getSourceString(matchPasswordsResult.getResultCode()));
+                _lblInfo.setText(SourceManager.getSourceString(_source, matchPasswordsResult.getResultCode()));
             }
         }
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        menu.add(0, EventCodes.CLOSE_APP, 0, getSourceString(R.string.menu_exit));
+        menu.add(0, EventCodes.CLOSE_APP, 0, SourceManager.getSourceString(_source, R.string.menu_exit));
         return super.onCreateOptionsMenu(menu);
     }
 

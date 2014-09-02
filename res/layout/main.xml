@@ -3,11 +3,16 @@
               android:orientation="vertical"
               android:layout_width="fill_parent"
               android:layout_height="fill_parent"
-        >
+              android:background="#566D7E">
     <TextView
-            android:layout_width="fill_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Hello World, MyActivity"
-            />
+            android:textColor="#DCDCDC"
+            android:id="@+id/mainActivityTitle" android:layout_gravity="center"/>
+    <ExpandableListView
+            android:id="@+id/mainList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+    </ExpandableListView>
 </LinearLayout>
 

@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">PassStorage</string>
+    <string name="main_event_header_label">The list of your passwords</string>
+    <string name="login_label">Login</string>
+    <string name="password_label">Password</string>
+    <string name="group_label">Group title</string>
 </resources>

@@ -12,5 +12,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".activity.Main"/>
+        <activity android:name=".activity.AddElement"/>
+        <activity android:name=".activity.RemoveElement"/>
     </application>
 </manifest>

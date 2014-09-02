@@ -7,4 +7,7 @@
     <string name="too_small_password">The password must contain more then five symbols</string>
     <string name="password_attempts_left">You can try to enter password %s times</string>
     <string name="wrong_password">Wrong password. Please, try again</string>
+    <string name="empty_login_or_pass">Login and password can not be empty</string>
+    <string name="empty_group">Group title can not be empty</string>
+    <string name="remove_confirmation">Please, confirm your remove opportunity</string>
 </resources>

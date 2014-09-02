@@ -2,6 +2,7 @@ package ru.android.uiapp.passwordstorage.uimodifier;
 
 import android.database.Cursor;
 import android.view.View;
+import android.widget.SimpleCursorTreeAdapter;
 import android.widget.TextView;
 import ru.android.uiapp.passwordstorage.encryption.IScrambler;
 import ru.android.uiapp.passwordstorage.encryption.Scrambler;
@@ -11,7 +12,7 @@ import ru.android.uiapp.passwordstorage.encryption.Scrambler;
  * Date: 22.08.14
  * Time: 10:03
  */
-public class DecryptViewBinder {
+public class DecryptViewBinder implements SimpleCursorTreeAdapter.ViewBinder {
     private IScrambler _scrambler = null;
 
     public DecryptViewBinder(String password)
