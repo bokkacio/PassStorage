@@ -33,7 +33,7 @@ public class Main extends Activity {
     private SimpleCursorTreeAdapter _sctAdapter;
     private Scrambler _localScrambler;
     private IPermanentStorage _fileHelper;
-    private Resources _source = getResources();
+    private Resources _source;
 
     private String _dbPassword = "";
 
@@ -55,6 +55,7 @@ public class Main extends Activity {
         else
         {
             _dbPassword = PASS_PREFIX + entireIntent.getStringExtra(ActivityVariable.SAVED_USER_PASSWORD) + PASS_POSTFIX;
+            _source = getResources();
             initPasswordList();
         }
     }

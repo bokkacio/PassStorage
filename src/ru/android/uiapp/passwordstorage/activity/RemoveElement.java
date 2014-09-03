@@ -22,7 +22,7 @@ public class RemoveElement extends Activity implements View.OnClickListener{
     private Button _btnElementRemove;
     private Button _btnElementRefuseRemove;
 
-    private Resources _source = getResources();
+    private Resources _source;
     private long _groupId;
     private long _elementId;
 
@@ -46,6 +46,8 @@ public class RemoveElement extends Activity implements View.OnClickListener{
 
         _btnElementRemove.setOnClickListener(this);
         _btnElementRefuseRemove.setOnClickListener(this);
+
+        _source = getResources();
     }
 
     @Override

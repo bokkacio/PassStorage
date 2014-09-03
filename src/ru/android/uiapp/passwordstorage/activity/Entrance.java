@@ -31,7 +31,7 @@ public class Entrance extends Activity implements View.OnClickListener{
     private EditText _txtPasswordRepeat;
 
     private IEntryStorage _db;
-    private Resources _source = getResources();
+    private Resources _source;
 
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -54,6 +54,7 @@ public class Entrance extends Activity implements View.OnClickListener{
         _btnEntry = (Button)  findViewById(R.id.btnEntry);
 
         _btnEntry.setOnClickListener(this);
+        _source = getResources();
     }
 
     //create password or enter

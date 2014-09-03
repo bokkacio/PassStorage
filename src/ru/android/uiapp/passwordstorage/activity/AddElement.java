@@ -26,7 +26,7 @@ public class AddElement extends Activity implements View.OnClickListener{
     private TextView lblErrorTitle;
     private Button btnElementAdd;
 
-    private Resources _source = getResources();
+    private Resources _source;
     private long _groupId;
     private boolean _isElement = false;
 
@@ -64,6 +64,8 @@ public class AddElement extends Activity implements View.OnClickListener{
         txtElementTitle = (EditText)  findViewById(R.id.txtElementTitle);
         btnElementAdd = (Button) findViewById(R.id.btnProcessAdding);
         btnElementAdd.setOnClickListener(this);
+
+        _source = getResources();
     }
 
     @Override
