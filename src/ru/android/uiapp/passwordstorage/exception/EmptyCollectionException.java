@@ -1,7 +1,5 @@
 package ru.android.uiapp.passwordstorage.exception;
 
-import android.database.sqlite.SQLiteDatabase;
-
 /**
  * User: maslyanko
  * Date: 20.08.14
