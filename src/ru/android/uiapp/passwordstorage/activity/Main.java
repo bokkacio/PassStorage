@@ -76,9 +76,9 @@ public class Main extends Activity {
         switch (item.getItemId()){
             case EventCodes.CREATE_GROUP:
             {
-                //Intent intent = new Intent(this, AddElementActivity.class);
-                //intent.putExtra("groupId", DEFAULT_ID);
-                //startActivityForResult(intent, 2);
+                Intent intent = new Intent(this, AddElement.class);
+                intent.putExtra(ActivityVariable.GROUP_ID, ActivityVariable.DEFAULT_ID);
+                startActivityForResult(intent, EventCodes.CREATE_GROUP);
                 break;
             }
             case EventCodes.EXPORT_PASSWORDS:
@@ -137,20 +137,20 @@ public class Main extends Activity {
         int type = ExpandableListView.getPackedPositionType(info.packedPosition);
 
         if (type == ExpandableListView.PACKED_POSITION_TYPE_CHILD && item.getItemId() == EventCodes.REMOVE_ELEMENT) {
-//            Intent intent = new Intent(this, RemoveElementActivity.class);
-//            intent.putExtra("elementId", info.id);
-//            startActivityForResult(intent, 2);
+            Intent intent = new Intent(this, RemoveElement.class);
+            intent.putExtra(ActivityVariable.ELEMENT_ID, info.id);
+            startActivityForResult(intent, EventCodes.REMOVE_ELEMENT);
         }
         else if (type == ExpandableListView.PACKED_POSITION_TYPE_GROUP && item.getItemId() == EventCodes.CREATE_ELEMENT) {
             Intent intent = new Intent(this, AddElement.class);
             intent.putExtra(ActivityVariable.GROUP_ID, info.id);
             intent.putExtra(ActivityVariable.IS_ELEMENT, true);
-            startActivityForResult(intent, 2);
+            startActivityForResult(intent, EventCodes.CREATE_ELEMENT);
         }
         else if (type == ExpandableListView.PACKED_POSITION_TYPE_GROUP && item.getItemId() == EventCodes.REMOVE_GROUP) {
-            //Intent intent = new Intent(this, RemoveElementActivity.class);
-            //intent.putExtra("groupId", info.id);
-            //startActivityForResult(intent, 2);
+            Intent intent = new Intent(this, RemoveElement.class);
+            intent.putExtra(ActivityVariable.GROUP_ID, info.id);
+            startActivityForResult(intent, EventCodes.REMOVE_GROUP);
         }
 
         return super.onContextItemSelected(item);
