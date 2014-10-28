@@ -19,18 +19,18 @@ public class SecureCryptStorage implements ISecureCryptStorage {
     public static final String ID_COLUMN_NAME = "_id";
 
     //Groups
-    private static final String GROUP_TABLE_TITLE = "group";
+    private static final String GROUP_TABLE_TITLE = "groups";
     public static final String GROUP_COLUMN_NAME = "group_title";
     private static final String GROUP_TABLE_SQL = "create table "
             + GROUP_TABLE_TITLE + "(" + ID_COLUMN_NAME
             + " integer primary key autoincrement, " + GROUP_COLUMN_NAME + " text" + ");";
 
     //Elements
-    private static final String ELEMENT_TABLE_TITLE = "element";
+    private static final String ELEMENT_TABLE_TITLE = "elements";
     public static final String ELEMENT_COLUMN_VALUE= "element_value";
     private static final String ELEMENT_COLUMN_GROUP = "group_id";
     private static final String ELEMENT_TABLE_SQL = "create table "
-            + ELEMENT_TABLE_TITLE + " ( " + ID_COLUMN_NAME
+            + ELEMENT_TABLE_TITLE + "( " + ID_COLUMN_NAME
             + " integer primary key autoincrement, " + ELEMENT_COLUMN_VALUE +  " text, " + ELEMENT_COLUMN_GROUP + " integer" + ");";
 
     private final Context _activityContext;
